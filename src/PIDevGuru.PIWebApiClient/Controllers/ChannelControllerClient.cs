@@ -23,7 +23,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <returns>HttpApiResponse<PWAItemsChannelInstance></returns>
 		public async Task<HttpApiResponse<PWAItemsChannelInstance>> InstancesWithHttpAsync()
 		{
@@ -49,7 +49,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <returns>PWAItemsChannelInstance</returns>
 		public async Task<PWAItemsChannelInstance> InstancesAsync()
 		{
@@ -62,7 +62,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <returns>HttpApiResponse<PWAItemsChannelInstance></returns>
 		public HttpApiResponse<PWAItemsChannelInstance> InstancesWithHttp()
 		{
@@ -88,7 +88,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <returns>PWAItemsChannelInstance</returns>
 		public PWAItemsChannelInstance Instances()
 		{

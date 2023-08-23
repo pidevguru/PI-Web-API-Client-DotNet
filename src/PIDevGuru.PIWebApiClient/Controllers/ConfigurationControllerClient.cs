@@ -23,7 +23,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <returns>HttpApiResponse<Dictionary<string, object>></returns>
 		public async Task<HttpApiResponse<Dictionary<string, object>>> ListWithHttpAsync()
 		{
@@ -49,7 +49,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <returns>Dictionary<string, object></returns>
 		public async Task<Dictionary<string, object>> ListAsync()
 		{
@@ -62,7 +62,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <returns>HttpApiResponse<Dictionary<string, object>></returns>
 		public HttpApiResponse<Dictionary<string, object>> ListWithHttp()
 		{
@@ -88,7 +88,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <returns>Dictionary<string, object></returns>
 		public Dictionary<string, object> List()
 		{
@@ -101,7 +101,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="key">The key of the configuration item to remove.</param>
 		/// <returns>HttpApiResponse<object></returns>
 		public async Task<HttpApiResponse<object>> DeleteWithHttpAsync(string key)
@@ -134,7 +134,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="key">The key of the configuration item to remove.</param>
 		/// <returns>object</returns>
 		public async Task<object> DeleteAsync(string key)
@@ -148,7 +148,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="key">The key of the configuration item to remove.</param>
 		/// <returns>HttpApiResponse<object></returns>
 		public HttpApiResponse<object> DeleteWithHttp(string key)
@@ -181,7 +181,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="key">The key of the configuration item to remove.</param>
 		/// <returns>object</returns>
 		public object Delete(string key)
@@ -195,7 +195,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// The response content may vary based on the configuration item's data type.
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="key">The key of the configuration item.</param>
 		/// <returns>HttpApiResponse<object></returns>
 		public async Task<HttpApiResponse<object>> GetWithHttpAsync(string key)
@@ -228,7 +228,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// The response content may vary based on the configuration item's data type.
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="key">The key of the configuration item.</param>
 		/// <returns>object</returns>
 		public async Task<object> GetAsync(string key)
@@ -242,7 +242,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// The response content may vary based on the configuration item's data type.
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="key">The key of the configuration item.</param>
 		/// <returns>HttpApiResponse<object></returns>
 		public HttpApiResponse<object> GetWithHttp(string key)
@@ -275,7 +275,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// The response content may vary based on the configuration item's data type.
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="key">The key of the configuration item.</param>
 		/// <returns>object</returns>
 		public object Get(string key)

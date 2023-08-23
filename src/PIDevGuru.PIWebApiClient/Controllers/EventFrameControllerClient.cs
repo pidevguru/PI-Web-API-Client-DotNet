@@ -23,7 +23,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// This method returns an event frame based on the hierarchical path associated with it, and should be used when a path has been received from a separate part of the PI System for use in the PI Web API. Users should primarily search with the WebID when available.
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="path">The path to the event frame.</param>
 		/// <param name="selectedFields">List of fields to be returned in the response, separated by semicolons (;). If this parameter is not specified, all available fields will be returned.</param>
 		/// <param name="webIdType">Optional parameter. Used to specify the type of WebID. Useful for URL brevity and other special cases. Default is the value of the configuration item "WebIDType".</param>
@@ -60,7 +60,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// This method returns an event frame based on the hierarchical path associated with it, and should be used when a path has been received from a separate part of the PI System for use in the PI Web API. Users should primarily search with the WebID when available.
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="path">The path to the event frame.</param>
 		/// <param name="selectedFields">List of fields to be returned in the response, separated by semicolons (;). If this parameter is not specified, all available fields will be returned.</param>
 		/// <param name="webIdType">Optional parameter. Used to specify the type of WebID. Useful for URL brevity and other special cases. Default is the value of the configuration item "WebIDType".</param>
@@ -76,7 +76,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// This method returns an event frame based on the hierarchical path associated with it, and should be used when a path has been received from a separate part of the PI System for use in the PI Web API. Users should primarily search with the WebID when available.
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="path">The path to the event frame.</param>
 		/// <param name="selectedFields">List of fields to be returned in the response, separated by semicolons (;). If this parameter is not specified, all available fields will be returned.</param>
 		/// <param name="webIdType">Optional parameter. Used to specify the type of WebID. Useful for URL brevity and other special cases. Default is the value of the configuration item "WebIDType".</param>
@@ -113,7 +113,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// This method returns an event frame based on the hierarchical path associated with it, and should be used when a path has been received from a separate part of the PI System for use in the PI Web API. Users should primarily search with the WebID when available.
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="path">The path to the event frame.</param>
 		/// <param name="selectedFields">List of fields to be returned in the response, separated by semicolons (;). If this parameter is not specified, all available fields will be returned.</param>
 		/// <param name="webIdType">Optional parameter. Used to specify the type of WebID. Useful for URL brevity and other special cases. Default is the value of the configuration item "WebIDType".</param>
@@ -129,7 +129,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="asParallel">Specifies if the retrieval processes should be run in parallel on the server. This may improve the response time for large amounts of requested attributes. The default is 'false'.</param>
 		/// <param name="includeMode">The include mode for the return list. The default is 'All'.</param>
 		/// <param name="path">The path of an event frame. Multiple event frames may be specified with multiple instances of the parameter.</param>
@@ -167,7 +167,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="asParallel">Specifies if the retrieval processes should be run in parallel on the server. This may improve the response time for large amounts of requested attributes. The default is 'false'.</param>
 		/// <param name="includeMode">The include mode for the return list. The default is 'All'.</param>
 		/// <param name="path">The path of an event frame. Multiple event frames may be specified with multiple instances of the parameter.</param>
@@ -186,7 +186,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="asParallel">Specifies if the retrieval processes should be run in parallel on the server. This may improve the response time for large amounts of requested attributes. The default is 'false'.</param>
 		/// <param name="includeMode">The include mode for the return list. The default is 'All'.</param>
 		/// <param name="path">The path of an event frame. Multiple event frames may be specified with multiple instances of the parameter.</param>
@@ -224,7 +224,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="asParallel">Specifies if the retrieval processes should be run in parallel on the server. This may improve the response time for large amounts of requested attributes. The default is 'false'.</param>
 		/// <param name="includeMode">The include mode for the return list. The default is 'All'.</param>
 		/// <param name="path">The path of an event frame. Multiple event frames may be specified with multiple instances of the parameter.</param>
@@ -243,7 +243,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="databaseWebId">The ID of the asset database to use as the root of the query.</param>
 		/// <param name="maxCount">The maximum number of objects to be returned per call (page size). The default is 1000.</param>
 		/// <param name="query">The query string is a list of filters used to perform an AFSearch for the eventframes in the asset database. An example would be: "query=Name:=MyEventFrame* Category:=MyCategory Template:=EFTemplate".</param>
@@ -281,7 +281,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="databaseWebId">The ID of the asset database to use as the root of the query.</param>
 		/// <param name="maxCount">The maximum number of objects to be returned per call (page size). The default is 1000.</param>
 		/// <param name="query">The query string is a list of filters used to perform an AFSearch for the eventframes in the asset database. An example would be: "query=Name:=MyEventFrame* Category:=MyCategory Template:=EFTemplate".</param>
@@ -300,7 +300,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="databaseWebId">The ID of the asset database to use as the root of the query.</param>
 		/// <param name="maxCount">The maximum number of objects to be returned per call (page size). The default is 1000.</param>
 		/// <param name="query">The query string is a list of filters used to perform an AFSearch for the eventframes in the asset database. An example would be: "query=Name:=MyEventFrame* Category:=MyCategory Template:=EFTemplate".</param>
@@ -338,7 +338,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="databaseWebId">The ID of the asset database to use as the root of the query.</param>
 		/// <param name="maxCount">The maximum number of objects to be returned per call (page size). The default is 1000.</param>
 		/// <param name="query">The query string is a list of filters used to perform an AFSearch for the eventframes in the asset database. An example would be: "query=Name:=MyEventFrame* Category:=MyCategory Template:=EFTemplate".</param>
@@ -357,7 +357,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="query">The query of search by attribute.</param>
 		/// <param name="noResults">If false, the response content will contain the first page of the search results. If true, the response content will be empty. The default is false.</param>
 		/// <param name="selectedFields">List of fields to be returned in the response, separated by semicolons (;). If this parameter is not specified, all available fields will be returned.</param>
@@ -396,7 +396,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="query">The query of search by attribute.</param>
 		/// <param name="noResults">If false, the response content will contain the first page of the search results. If true, the response content will be empty. The default is false.</param>
 		/// <param name="selectedFields">List of fields to be returned in the response, separated by semicolons (;). If this parameter is not specified, all available fields will be returned.</param>
@@ -413,7 +413,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="query">The query of search by attribute.</param>
 		/// <param name="noResults">If false, the response content will contain the first page of the search results. If true, the response content will be empty. The default is false.</param>
 		/// <param name="selectedFields">List of fields to be returned in the response, separated by semicolons (;). If this parameter is not specified, all available fields will be returned.</param>
@@ -452,7 +452,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="query">The query of search by attribute.</param>
 		/// <param name="noResults">If false, the response content will contain the first page of the search results. If true, the response content will be empty. The default is false.</param>
 		/// <param name="selectedFields">List of fields to be returned in the response, separated by semicolons (;). If this parameter is not specified, all available fields will be returned.</param>
@@ -469,7 +469,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="searchId">The encoded search Id of the "Search EventFrames By Attribute Value" operation.</param>
 		/// <param name="canBeAcknowledged">Specify the returned event frames' canBeAcknowledged property. The default is no canBeAcknowledged filter.</param>
 		/// <param name="endTime">The ending time for the search. endTime must be greater than or equal to the startTime. The searchMode parameter will control whether the comparison will be performed against the event frame's startTime or endTime. The default is '*'.</param>
@@ -532,7 +532,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="searchId">The encoded search Id of the "Search EventFrames By Attribute Value" operation.</param>
 		/// <param name="canBeAcknowledged">Specify the returned event frames' canBeAcknowledged property. The default is no canBeAcknowledged filter.</param>
 		/// <param name="endTime">The ending time for the search. endTime must be greater than or equal to the startTime. The searchMode parameter will control whether the comparison will be performed against the event frame's startTime or endTime. The default is '*'.</param>
@@ -561,7 +561,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="searchId">The encoded search Id of the "Search EventFrames By Attribute Value" operation.</param>
 		/// <param name="canBeAcknowledged">Specify the returned event frames' canBeAcknowledged property. The default is no canBeAcknowledged filter.</param>
 		/// <param name="endTime">The ending time for the search. endTime must be greater than or equal to the startTime. The searchMode parameter will control whether the comparison will be performed against the event frame's startTime or endTime. The default is '*'.</param>
@@ -624,7 +624,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="searchId">The encoded search Id of the "Search EventFrames By Attribute Value" operation.</param>
 		/// <param name="canBeAcknowledged">Specify the returned event frames' canBeAcknowledged property. The default is no canBeAcknowledged filter.</param>
 		/// <param name="endTime">The ending time for the search. endTime must be greater than or equal to the startTime. The searchMode parameter will control whether the comparison will be performed against the event frame's startTime or endTime. The default is '*'.</param>
@@ -653,7 +653,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the event frame to delete.</param>
 		/// <returns>HttpApiResponse<object></returns>
 		public async Task<HttpApiResponse<object>> DeleteWithHttpAsync(string webId)
@@ -686,7 +686,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the event frame to delete.</param>
 		/// <returns>object</returns>
 		public async Task<object> DeleteAsync(string webId)
@@ -700,7 +700,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the event frame to delete.</param>
 		/// <returns>HttpApiResponse<object></returns>
 		public HttpApiResponse<object> DeleteWithHttp(string webId)
@@ -733,7 +733,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the event frame to delete.</param>
 		/// <returns>object</returns>
 		public object Delete(string webId)
@@ -747,7 +747,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the event frame.</param>
 		/// <param name="selectedFields">List of fields to be returned in the response, separated by semicolons (;). If this parameter is not specified, all available fields will be returned.</param>
 		/// <param name="webIdType">Optional parameter. Used to specify the type of WebID. Useful for URL brevity and other special cases. Default is the value of the configuration item "WebIDType".</param>
@@ -784,7 +784,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the event frame.</param>
 		/// <param name="selectedFields">List of fields to be returned in the response, separated by semicolons (;). If this parameter is not specified, all available fields will be returned.</param>
 		/// <param name="webIdType">Optional parameter. Used to specify the type of WebID. Useful for URL brevity and other special cases. Default is the value of the configuration item "WebIDType".</param>
@@ -800,7 +800,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the event frame.</param>
 		/// <param name="selectedFields">List of fields to be returned in the response, separated by semicolons (;). If this parameter is not specified, all available fields will be returned.</param>
 		/// <param name="webIdType">Optional parameter. Used to specify the type of WebID. Useful for URL brevity and other special cases. Default is the value of the configuration item "WebIDType".</param>
@@ -837,7 +837,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the event frame.</param>
 		/// <param name="selectedFields">List of fields to be returned in the response, separated by semicolons (;). If this parameter is not specified, all available fields will be returned.</param>
 		/// <param name="webIdType">Optional parameter. Used to specify the type of WebID. Useful for URL brevity and other special cases. Default is the value of the configuration item "WebIDType".</param>
@@ -853,7 +853,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the event frame to update.</param>
 		/// <param name="eventFrame">A partial event frame containing the desired changes.</param>
 		/// <returns>HttpApiResponse<object></returns>
@@ -893,7 +893,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the event frame to update.</param>
 		/// <param name="eventFrame">A partial event frame containing the desired changes.</param>
 		/// <returns>object</returns>
@@ -908,7 +908,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the event frame to update.</param>
 		/// <param name="eventFrame">A partial event frame containing the desired changes.</param>
 		/// <returns>HttpApiResponse<object></returns>
@@ -948,7 +948,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the event frame to update.</param>
 		/// <param name="eventFrame">A partial event frame containing the desired changes.</param>
 		/// <returns>object</returns>
@@ -963,7 +963,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the event frame.</param>
 		/// <returns>HttpApiResponse<object></returns>
 		public async Task<HttpApiResponse<object>> AcknowledgeWithHttpAsync(string webId)
@@ -996,7 +996,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the event frame.</param>
 		/// <returns>object</returns>
 		public async Task<object> AcknowledgeAsync(string webId)
@@ -1010,7 +1010,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the event frame.</param>
 		/// <returns>HttpApiResponse<object></returns>
 		public HttpApiResponse<object> AcknowledgeWithHttp(string webId)
@@ -1043,7 +1043,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the event frame.</param>
 		/// <returns>object</returns>
 		public object Acknowledge(string webId)
@@ -1057,7 +1057,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the owner event frame.</param>
 		/// <param name="selectedFields">List of fields to be returned in the response, separated by semicolons (;). If this parameter is not specified, all available fields will be returned.</param>
 		/// <param name="webIdType">Optional parameter. Used to specify the type of WebID. Useful for URL brevity and other special cases. Default is the value of the configuration item "WebIDType".</param>
@@ -1094,7 +1094,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the owner event frame.</param>
 		/// <param name="selectedFields">List of fields to be returned in the response, separated by semicolons (;). If this parameter is not specified, all available fields will be returned.</param>
 		/// <param name="webIdType">Optional parameter. Used to specify the type of WebID. Useful for URL brevity and other special cases. Default is the value of the configuration item "WebIDType".</param>
@@ -1110,7 +1110,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the owner event frame.</param>
 		/// <param name="selectedFields">List of fields to be returned in the response, separated by semicolons (;). If this parameter is not specified, all available fields will be returned.</param>
 		/// <param name="webIdType">Optional parameter. Used to specify the type of WebID. Useful for URL brevity and other special cases. Default is the value of the configuration item "WebIDType".</param>
@@ -1147,7 +1147,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the owner event frame.</param>
 		/// <param name="selectedFields">List of fields to be returned in the response, separated by semicolons (;). If this parameter is not specified, all available fields will be returned.</param>
 		/// <param name="webIdType">Optional parameter. Used to specify the type of WebID. Useful for URL brevity and other special cases. Default is the value of the configuration item "WebIDType".</param>
@@ -1163,7 +1163,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the owner event frame on which to create the annotation.</param>
 		/// <param name="annotation">The new annotation definition.</param>
 		/// <param name="webIdType">Optional parameter. Used to specify the type of WebID. Useful for URL brevity and other special cases. Default is the value of the configuration item "WebIDType".</param>
@@ -1205,7 +1205,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the owner event frame on which to create the annotation.</param>
 		/// <param name="annotation">The new annotation definition.</param>
 		/// <param name="webIdType">Optional parameter. Used to specify the type of WebID. Useful for URL brevity and other special cases. Default is the value of the configuration item "WebIDType".</param>
@@ -1221,7 +1221,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the owner event frame on which to create the annotation.</param>
 		/// <param name="annotation">The new annotation definition.</param>
 		/// <param name="webIdType">Optional parameter. Used to specify the type of WebID. Useful for URL brevity and other special cases. Default is the value of the configuration item "WebIDType".</param>
@@ -1263,7 +1263,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the owner event frame on which to create the annotation.</param>
 		/// <param name="annotation">The new annotation definition.</param>
 		/// <param name="webIdType">Optional parameter. Used to specify the type of WebID. Useful for URL brevity and other special cases. Default is the value of the configuration item "WebIDType".</param>
@@ -1279,7 +1279,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="id">The Annotation identifier of the annotation to be deleted.</param>
 		/// <param name="webId">The ID of the owner event frame of the annotation to delete.</param>
 		/// <returns>HttpApiResponse<object></returns>
@@ -1319,7 +1319,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="id">The Annotation identifier of the annotation to be deleted.</param>
 		/// <param name="webId">The ID of the owner event frame of the annotation to delete.</param>
 		/// <returns>object</returns>
@@ -1334,7 +1334,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="id">The Annotation identifier of the annotation to be deleted.</param>
 		/// <param name="webId">The ID of the owner event frame of the annotation to delete.</param>
 		/// <returns>HttpApiResponse<object></returns>
@@ -1374,7 +1374,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="id">The Annotation identifier of the annotation to be deleted.</param>
 		/// <param name="webId">The ID of the owner event frame of the annotation to delete.</param>
 		/// <returns>object</returns>
@@ -1389,7 +1389,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="id">The Annotation identifier of the specific annotation.</param>
 		/// <param name="webId">The ID of the owner event frame.</param>
 		/// <param name="selectedFields">List of fields to be returned in the response, separated by semicolons (;). If this parameter is not specified, all available fields will be returned.</param>
@@ -1433,7 +1433,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="id">The Annotation identifier of the specific annotation.</param>
 		/// <param name="webId">The ID of the owner event frame.</param>
 		/// <param name="selectedFields">List of fields to be returned in the response, separated by semicolons (;). If this parameter is not specified, all available fields will be returned.</param>
@@ -1450,7 +1450,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="id">The Annotation identifier of the specific annotation.</param>
 		/// <param name="webId">The ID of the owner event frame.</param>
 		/// <param name="selectedFields">List of fields to be returned in the response, separated by semicolons (;). If this parameter is not specified, all available fields will be returned.</param>
@@ -1494,7 +1494,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="id">The Annotation identifier of the specific annotation.</param>
 		/// <param name="webId">The ID of the owner event frame.</param>
 		/// <param name="selectedFields">List of fields to be returned in the response, separated by semicolons (;). If this parameter is not specified, all available fields will be returned.</param>
@@ -1511,7 +1511,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="id">The Annotation identifier of the annotation to be updated.</param>
 		/// <param name="webId">The ID of the owner event frame of the annotation to update.</param>
 		/// <param name="annotation">A partial annotation containing the desired changes.</param>
@@ -1558,7 +1558,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="id">The Annotation identifier of the annotation to be updated.</param>
 		/// <param name="webId">The ID of the owner event frame of the annotation to update.</param>
 		/// <param name="annotation">A partial annotation containing the desired changes.</param>
@@ -1574,7 +1574,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="id">The Annotation identifier of the annotation to be updated.</param>
 		/// <param name="webId">The ID of the owner event frame of the annotation to update.</param>
 		/// <param name="annotation">A partial annotation containing the desired changes.</param>
@@ -1621,7 +1621,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="id">The Annotation identifier of the annotation to be updated.</param>
 		/// <param name="webId">The ID of the owner event frame of the annotation to update.</param>
 		/// <param name="annotation">A partial annotation containing the desired changes.</param>
@@ -1637,7 +1637,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="id">The Annotation identifier of the annotation to delete the attached media of.</param>
 		/// <param name="webId">The ID of the owner event frame of the annotation to delete the attached media of.</param>
 		/// <returns>HttpApiResponse<object></returns>
@@ -1677,7 +1677,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="id">The Annotation identifier of the annotation to delete the attached media of.</param>
 		/// <param name="webId">The ID of the owner event frame of the annotation to delete the attached media of.</param>
 		/// <returns>object</returns>
@@ -1692,7 +1692,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="id">The Annotation identifier of the annotation to delete the attached media of.</param>
 		/// <param name="webId">The ID of the owner event frame of the annotation to delete the attached media of.</param>
 		/// <returns>HttpApiResponse<object></returns>
@@ -1732,7 +1732,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="id">The Annotation identifier of the annotation to delete the attached media of.</param>
 		/// <param name="webId">The ID of the owner event frame of the annotation to delete the attached media of.</param>
 		/// <returns>object</returns>
@@ -1747,7 +1747,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="id">The Annotation identifier of the specific annotation.</param>
 		/// <param name="webId">The ID of the owner event frame.</param>
 		/// <param name="selectedFields">List of fields to be returned in the response, separated by semicolons (;). If this parameter is not specified, all available fields will be returned.</param>
@@ -1791,7 +1791,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="id">The Annotation identifier of the specific annotation.</param>
 		/// <param name="webId">The ID of the owner event frame.</param>
 		/// <param name="selectedFields">List of fields to be returned in the response, separated by semicolons (;). If this parameter is not specified, all available fields will be returned.</param>
@@ -1808,7 +1808,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="id">The Annotation identifier of the specific annotation.</param>
 		/// <param name="webId">The ID of the owner event frame.</param>
 		/// <param name="selectedFields">List of fields to be returned in the response, separated by semicolons (;). If this parameter is not specified, all available fields will be returned.</param>
@@ -1852,7 +1852,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="id">The Annotation identifier of the specific annotation.</param>
 		/// <param name="webId">The ID of the owner event frame.</param>
 		/// <param name="selectedFields">List of fields to be returned in the response, separated by semicolons (;). If this parameter is not specified, all available fields will be returned.</param>
@@ -1869,7 +1869,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the event frame.</param>
 		/// <param name="associations">Associated values to return in the response, separated by semicolons (;). This call supports DataReference to return attributes with data references. If this parameter is not specified, DataReference values are not returned.</param>
 		/// <param name="categoryName">Specify that returned attributes must have this category. The default is no category filter.</param>
@@ -1934,7 +1934,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the event frame.</param>
 		/// <param name="associations">Associated values to return in the response, separated by semicolons (;). This call supports DataReference to return attributes with data references. If this parameter is not specified, DataReference values are not returned.</param>
 		/// <param name="categoryName">Specify that returned attributes must have this category. The default is no category filter.</param>
@@ -1964,7 +1964,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the event frame.</param>
 		/// <param name="associations">Associated values to return in the response, separated by semicolons (;). This call supports DataReference to return attributes with data references. If this parameter is not specified, DataReference values are not returned.</param>
 		/// <param name="categoryName">Specify that returned attributes must have this category. The default is no category filter.</param>
@@ -2029,7 +2029,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the event frame.</param>
 		/// <param name="associations">Associated values to return in the response, separated by semicolons (;). This call supports DataReference to return attributes with data references. If this parameter is not specified, DataReference values are not returned.</param>
 		/// <param name="categoryName">Specify that returned attributes must have this category. The default is no category filter.</param>
@@ -2059,7 +2059,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the event frame on which to create the attribute.</param>
 		/// <param name="attribute">The definition of the new attribute.</param>
 		/// <param name="webIdType">Optional parameter. Used to specify the type of WebID. Useful for URL brevity and other special cases. Default is the value of the configuration item "WebIDType".</param>
@@ -2101,7 +2101,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the event frame on which to create the attribute.</param>
 		/// <param name="attribute">The definition of the new attribute.</param>
 		/// <param name="webIdType">Optional parameter. Used to specify the type of WebID. Useful for URL brevity and other special cases. Default is the value of the configuration item "WebIDType".</param>
@@ -2117,7 +2117,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the event frame on which to create the attribute.</param>
 		/// <param name="attribute">The definition of the new attribute.</param>
 		/// <param name="webIdType">Optional parameter. Used to specify the type of WebID. Useful for URL brevity and other special cases. Default is the value of the configuration item "WebIDType".</param>
@@ -2159,7 +2159,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the event frame on which to create the attribute.</param>
 		/// <param name="attribute">The definition of the new attribute.</param>
 		/// <param name="webIdType">Optional parameter. Used to specify the type of WebID. Useful for URL brevity and other special cases. Default is the value of the configuration item "WebIDType".</param>
@@ -2175,7 +2175,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the event frame.</param>
 		/// <returns>HttpApiResponse<object></returns>
 		public async Task<HttpApiResponse<object>> CaptureValuesWithHttpAsync(string webId)
@@ -2208,7 +2208,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the event frame.</param>
 		/// <returns>object</returns>
 		public async Task<object> CaptureValuesAsync(string webId)
@@ -2222,7 +2222,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the event frame.</param>
 		/// <returns>HttpApiResponse<object></returns>
 		public HttpApiResponse<object> CaptureValuesWithHttp(string webId)
@@ -2255,7 +2255,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the event frame.</param>
 		/// <returns>object</returns>
 		public object CaptureValues(string webId)
@@ -2269,7 +2269,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the event frame.</param>
 		/// <param name="selectedFields">List of fields to be returned in the response, separated by semicolons (;). If this parameter is not specified, all available fields will be returned.</param>
 		/// <param name="webIdType">Optional parameter. Used to specify the type of WebID. Useful for URL brevity and other special cases. Default is the value of the configuration item "WebIDType".</param>
@@ -2306,7 +2306,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the event frame.</param>
 		/// <param name="selectedFields">List of fields to be returned in the response, separated by semicolons (;). If this parameter is not specified, all available fields will be returned.</param>
 		/// <param name="webIdType">Optional parameter. Used to specify the type of WebID. Useful for URL brevity and other special cases. Default is the value of the configuration item "WebIDType".</param>
@@ -2322,7 +2322,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the event frame.</param>
 		/// <param name="selectedFields">List of fields to be returned in the response, separated by semicolons (;). If this parameter is not specified, all available fields will be returned.</param>
 		/// <param name="webIdType">Optional parameter. Used to specify the type of WebID. Useful for URL brevity and other special cases. Default is the value of the configuration item "WebIDType".</param>
@@ -2359,7 +2359,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the event frame.</param>
 		/// <param name="selectedFields">List of fields to be returned in the response, separated by semicolons (;). If this parameter is not specified, all available fields will be returned.</param>
 		/// <param name="webIdType">Optional parameter. Used to specify the type of WebID. Useful for URL brevity and other special cases. Default is the value of the configuration item "WebIDType".</param>
@@ -2375,7 +2375,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the event frame.</param>
 		/// <param name="includeChildElements">If true, includes the child event frames of the specified event frame.</param>
 		/// <returns>HttpApiResponse<object></returns>
@@ -2410,7 +2410,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the event frame.</param>
 		/// <param name="includeChildElements">If true, includes the child event frames of the specified event frame.</param>
 		/// <returns>object</returns>
@@ -2425,7 +2425,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the event frame.</param>
 		/// <param name="includeChildElements">If true, includes the child event frames of the specified event frame.</param>
 		/// <returns>HttpApiResponse<object></returns>
@@ -2460,7 +2460,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the event frame.</param>
 		/// <param name="includeChildElements">If true, includes the child event frames of the specified event frame.</param>
 		/// <returns>object</returns>
@@ -2475,7 +2475,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the event frame to use as the root of the search.</param>
 		/// <param name="associations">Associated values to return in the response, separated by semicolons (;). This call supports DataReference to return attributes with data references. If this parameter is not specified, DataReference values are not returned.</param>
 		/// <param name="attributeCategory">Specify that returned attributes must have this category. The default is no filter.</param>
@@ -2548,7 +2548,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the event frame to use as the root of the search.</param>
 		/// <param name="associations">Associated values to return in the response, separated by semicolons (;). This call supports DataReference to return attributes with data references. If this parameter is not specified, DataReference values are not returned.</param>
 		/// <param name="attributeCategory">Specify that returned attributes must have this category. The default is no filter.</param>
@@ -2582,7 +2582,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the event frame to use as the root of the search.</param>
 		/// <param name="associations">Associated values to return in the response, separated by semicolons (;). This call supports DataReference to return attributes with data references. If this parameter is not specified, DataReference values are not returned.</param>
 		/// <param name="attributeCategory">Specify that returned attributes must have this category. The default is no filter.</param>
@@ -2655,7 +2655,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the event frame to use as the root of the search.</param>
 		/// <param name="associations">Associated values to return in the response, separated by semicolons (;). This call supports DataReference to return attributes with data references. If this parameter is not specified, DataReference values are not returned.</param>
 		/// <param name="attributeCategory">Specify that returned attributes must have this category. The default is no filter.</param>
@@ -2689,7 +2689,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the event frame to use as the root of the search.</param>
 		/// <param name="canBeAcknowledged">Specify the returned event frames' canBeAcknowledged property. The default is no canBeAcknowledged filter.</param>
 		/// <param name="categoryName">Specify that returned event frames must have this category. The default is no category filter.</param>
@@ -2758,7 +2758,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the event frame to use as the root of the search.</param>
 		/// <param name="canBeAcknowledged">Specify the returned event frames' canBeAcknowledged property. The default is no canBeAcknowledged filter.</param>
 		/// <param name="categoryName">Specify that returned event frames must have this category. The default is no category filter.</param>
@@ -2790,7 +2790,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the event frame to use as the root of the search.</param>
 		/// <param name="canBeAcknowledged">Specify the returned event frames' canBeAcknowledged property. The default is no canBeAcknowledged filter.</param>
 		/// <param name="categoryName">Specify that returned event frames must have this category. The default is no category filter.</param>
@@ -2859,7 +2859,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the event frame to use as the root of the search.</param>
 		/// <param name="canBeAcknowledged">Specify the returned event frames' canBeAcknowledged property. The default is no canBeAcknowledged filter.</param>
 		/// <param name="categoryName">Specify that returned event frames must have this category. The default is no category filter.</param>
@@ -2891,7 +2891,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the parent event frame on which to create the event frame.</param>
 		/// <param name="eventFrame">The new event frame definition.</param>
 		/// <param name="webIdType">Optional parameter. Used to specify the type of WebID. Useful for URL brevity and other special cases. Default is the value of the configuration item "WebIDType".</param>
@@ -2933,7 +2933,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the parent event frame on which to create the event frame.</param>
 		/// <param name="eventFrame">The new event frame definition.</param>
 		/// <param name="webIdType">Optional parameter. Used to specify the type of WebID. Useful for URL brevity and other special cases. Default is the value of the configuration item "WebIDType".</param>
@@ -2949,7 +2949,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the parent event frame on which to create the event frame.</param>
 		/// <param name="eventFrame">The new event frame definition.</param>
 		/// <param name="webIdType">Optional parameter. Used to specify the type of WebID. Useful for URL brevity and other special cases. Default is the value of the configuration item "WebIDType".</param>
@@ -2991,7 +2991,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the parent event frame on which to create the event frame.</param>
 		/// <param name="eventFrame">The new event frame definition.</param>
 		/// <param name="webIdType">Optional parameter. Used to specify the type of WebID. Useful for URL brevity and other special cases. Default is the value of the configuration item "WebIDType".</param>
@@ -3007,7 +3007,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the event frame whose referenced elements should be retrieved.</param>
 		/// <param name="associations">Associated values to return in the response, separated by semicolons (;). This call supports Paths to return all paths to the element. If this parameter is not specified, paths are not returned.</param>
 		/// <param name="selectedFields">List of fields to be returned in the response, separated by semicolons (;). If this parameter is not specified, all available fields will be returned.</param>
@@ -3046,7 +3046,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the event frame whose referenced elements should be retrieved.</param>
 		/// <param name="associations">Associated values to return in the response, separated by semicolons (;). This call supports Paths to return all paths to the element. If this parameter is not specified, paths are not returned.</param>
 		/// <param name="selectedFields">List of fields to be returned in the response, separated by semicolons (;). If this parameter is not specified, all available fields will be returned.</param>
@@ -3063,7 +3063,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the event frame whose referenced elements should be retrieved.</param>
 		/// <param name="associations">Associated values to return in the response, separated by semicolons (;). This call supports Paths to return all paths to the element. If this parameter is not specified, paths are not returned.</param>
 		/// <param name="selectedFields">List of fields to be returned in the response, separated by semicolons (;). If this parameter is not specified, all available fields will be returned.</param>
@@ -3102,7 +3102,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the event frame whose referenced elements should be retrieved.</param>
 		/// <param name="associations">Associated values to return in the response, separated by semicolons (;). This call supports Paths to return all paths to the element. If this parameter is not specified, paths are not returned.</param>
 		/// <param name="selectedFields">List of fields to be returned in the response, separated by semicolons (;). If this parameter is not specified, all available fields will be returned.</param>
@@ -3119,7 +3119,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the event frame for the security to be checked.</param>
 		/// <param name="userIdentity">The user identity for the security information to be checked. Multiple security identities may be specified with multiple instances of the parameter. If the parameter is not specified, only the current user's security rights will be returned.</param>
 		/// <param name="forceRefresh">Indicates if the security cache should be refreshed before getting security information. The default is 'false'.</param>
@@ -3165,7 +3165,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the event frame for the security to be checked.</param>
 		/// <param name="userIdentity">The user identity for the security information to be checked. Multiple security identities may be specified with multiple instances of the parameter. If the parameter is not specified, only the current user's security rights will be returned.</param>
 		/// <param name="forceRefresh">Indicates if the security cache should be refreshed before getting security information. The default is 'false'.</param>
@@ -3183,7 +3183,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the event frame for the security to be checked.</param>
 		/// <param name="userIdentity">The user identity for the security information to be checked. Multiple security identities may be specified with multiple instances of the parameter. If the parameter is not specified, only the current user's security rights will be returned.</param>
 		/// <param name="forceRefresh">Indicates if the security cache should be refreshed before getting security information. The default is 'false'.</param>
@@ -3229,7 +3229,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the event frame for the security to be checked.</param>
 		/// <param name="userIdentity">The user identity for the security information to be checked. Multiple security identities may be specified with multiple instances of the parameter. If the parameter is not specified, only the current user's security rights will be returned.</param>
 		/// <param name="forceRefresh">Indicates if the security cache should be refreshed before getting security information. The default is 'false'.</param>
@@ -3247,7 +3247,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the event frame.</param>
 		/// <param name="nameFilter">The name query string used for filtering security entries. The default is no filter.</param>
 		/// <param name="selectedFields">List of fields to be returned in the response, separated by semicolons (;). If this parameter is not specified, all available fields will be returned.</param>
@@ -3286,7 +3286,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the event frame.</param>
 		/// <param name="nameFilter">The name query string used for filtering security entries. The default is no filter.</param>
 		/// <param name="selectedFields">List of fields to be returned in the response, separated by semicolons (;). If this parameter is not specified, all available fields will be returned.</param>
@@ -3303,7 +3303,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the event frame.</param>
 		/// <param name="nameFilter">The name query string used for filtering security entries. The default is no filter.</param>
 		/// <param name="selectedFields">List of fields to be returned in the response, separated by semicolons (;). If this parameter is not specified, all available fields will be returned.</param>
@@ -3342,7 +3342,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the event frame.</param>
 		/// <param name="nameFilter">The name query string used for filtering security entries. The default is no filter.</param>
 		/// <param name="selectedFields">List of fields to be returned in the response, separated by semicolons (;). If this parameter is not specified, all available fields will be returned.</param>
@@ -3359,7 +3359,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the event frame where the security entry will be created.</param>
 		/// <param name="securityEntry">The new security entry definition. The full list of allow and deny rights must be supplied.</param>
 		/// <param name="applyToChildren">If false, the new access permissions are only applied to the associated object. If true, the access permissions of children with any parent-child reference types will change when the permissions on the primary parent change.</param>
@@ -3403,7 +3403,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the event frame where the security entry will be created.</param>
 		/// <param name="securityEntry">The new security entry definition. The full list of allow and deny rights must be supplied.</param>
 		/// <param name="applyToChildren">If false, the new access permissions are only applied to the associated object. If true, the access permissions of children with any parent-child reference types will change when the permissions on the primary parent change.</param>
@@ -3420,7 +3420,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the event frame where the security entry will be created.</param>
 		/// <param name="securityEntry">The new security entry definition. The full list of allow and deny rights must be supplied.</param>
 		/// <param name="applyToChildren">If false, the new access permissions are only applied to the associated object. If true, the access permissions of children with any parent-child reference types will change when the permissions on the primary parent change.</param>
@@ -3464,7 +3464,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the event frame where the security entry will be created.</param>
 		/// <param name="securityEntry">The new security entry definition. The full list of allow and deny rights must be supplied.</param>
 		/// <param name="applyToChildren">If false, the new access permissions are only applied to the associated object. If true, the access permissions of children with any parent-child reference types will change when the permissions on the primary parent change.</param>
@@ -3481,7 +3481,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="name">The name of the security entry. For every backslash character (\) in the security entry name, replace with asterisk (*). As an example, use domain*username instead of domain\username.</param>
 		/// <param name="webId">The ID of the event frame where the security entry will be deleted.</param>
 		/// <param name="applyToChildren">If false, the new access permissions are only applied to the associated object. If true, the access permissions of children with any parent-child reference types will change when the permissions on the primary parent change.</param>
@@ -3523,7 +3523,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="name">The name of the security entry. For every backslash character (\) in the security entry name, replace with asterisk (*). As an example, use domain*username instead of domain\username.</param>
 		/// <param name="webId">The ID of the event frame where the security entry will be deleted.</param>
 		/// <param name="applyToChildren">If false, the new access permissions are only applied to the associated object. If true, the access permissions of children with any parent-child reference types will change when the permissions on the primary parent change.</param>
@@ -3539,7 +3539,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="name">The name of the security entry. For every backslash character (\) in the security entry name, replace with asterisk (*). As an example, use domain*username instead of domain\username.</param>
 		/// <param name="webId">The ID of the event frame where the security entry will be deleted.</param>
 		/// <param name="applyToChildren">If false, the new access permissions are only applied to the associated object. If true, the access permissions of children with any parent-child reference types will change when the permissions on the primary parent change.</param>
@@ -3581,7 +3581,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="name">The name of the security entry. For every backslash character (\) in the security entry name, replace with asterisk (*). As an example, use domain*username instead of domain\username.</param>
 		/// <param name="webId">The ID of the event frame where the security entry will be deleted.</param>
 		/// <param name="applyToChildren">If false, the new access permissions are only applied to the associated object. If true, the access permissions of children with any parent-child reference types will change when the permissions on the primary parent change.</param>
@@ -3597,7 +3597,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="name">The name of the security entry. For every backslash character (\) in the security entry name, replace with asterisk (*). As an example, use domain*username instead of domain\username.</param>
 		/// <param name="webId">The ID of the event frame.</param>
 		/// <param name="selectedFields">List of fields to be returned in the response, separated by semicolons (;). If this parameter is not specified, all available fields will be returned.</param>
@@ -3641,7 +3641,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="name">The name of the security entry. For every backslash character (\) in the security entry name, replace with asterisk (*). As an example, use domain*username instead of domain\username.</param>
 		/// <param name="webId">The ID of the event frame.</param>
 		/// <param name="selectedFields">List of fields to be returned in the response, separated by semicolons (;). If this parameter is not specified, all available fields will be returned.</param>
@@ -3658,7 +3658,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="name">The name of the security entry. For every backslash character (\) in the security entry name, replace with asterisk (*). As an example, use domain*username instead of domain\username.</param>
 		/// <param name="webId">The ID of the event frame.</param>
 		/// <param name="selectedFields">List of fields to be returned in the response, separated by semicolons (;). If this parameter is not specified, all available fields will be returned.</param>
@@ -3702,7 +3702,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="name">The name of the security entry. For every backslash character (\) in the security entry name, replace with asterisk (*). As an example, use domain*username instead of domain\username.</param>
 		/// <param name="webId">The ID of the event frame.</param>
 		/// <param name="selectedFields">List of fields to be returned in the response, separated by semicolons (;). If this parameter is not specified, all available fields will be returned.</param>
@@ -3719,7 +3719,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="name">The name of the security entry.</param>
 		/// <param name="webId">The ID of the event frame where the security entry will be updated.</param>
 		/// <param name="securityEntry">The new security entry definition. The full list of allow and deny rights must be supplied or they will be removed.</param>
@@ -3768,7 +3768,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="name">The name of the security entry.</param>
 		/// <param name="webId">The ID of the event frame where the security entry will be updated.</param>
 		/// <param name="securityEntry">The new security entry definition. The full list of allow and deny rights must be supplied or they will be removed.</param>
@@ -3785,7 +3785,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="name">The name of the security entry.</param>
 		/// <param name="webId">The ID of the event frame where the security entry will be updated.</param>
 		/// <param name="securityEntry">The new security entry definition. The full list of allow and deny rights must be supplied or they will be removed.</param>
@@ -3834,7 +3834,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="name">The name of the security entry.</param>
 		/// <param name="webId">The ID of the event frame where the security entry will be updated.</param>
 		/// <param name="securityEntry">The new security entry definition. The full list of allow and deny rights must be supplied or they will be removed.</param>

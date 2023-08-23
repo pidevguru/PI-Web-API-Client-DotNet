@@ -23,7 +23,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// This method returns an asset database based on the hierarchical path associated with it, and should be used when a path has been received from a separate part of the PI System for use in the PI Web API. Users should primarily search with the WebID when available.
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="path">The path to the database.</param>
 		/// <param name="selectedFields">List of fields to be returned in the response, separated by semicolons (;). If this parameter is not specified, all available fields will be returned.</param>
 		/// <param name="webIdType">Optional parameter. Used to specify the type of WebID. Useful for URL brevity and other special cases. Default is the value of the configuration item "WebIDType".</param>
@@ -60,7 +60,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// This method returns an asset database based on the hierarchical path associated with it, and should be used when a path has been received from a separate part of the PI System for use in the PI Web API. Users should primarily search with the WebID when available.
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="path">The path to the database.</param>
 		/// <param name="selectedFields">List of fields to be returned in the response, separated by semicolons (;). If this parameter is not specified, all available fields will be returned.</param>
 		/// <param name="webIdType">Optional parameter. Used to specify the type of WebID. Useful for URL brevity and other special cases. Default is the value of the configuration item "WebIDType".</param>
@@ -76,7 +76,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// This method returns an asset database based on the hierarchical path associated with it, and should be used when a path has been received from a separate part of the PI System for use in the PI Web API. Users should primarily search with the WebID when available.
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="path">The path to the database.</param>
 		/// <param name="selectedFields">List of fields to be returned in the response, separated by semicolons (;). If this parameter is not specified, all available fields will be returned.</param>
 		/// <param name="webIdType">Optional parameter. Used to specify the type of WebID. Useful for URL brevity and other special cases. Default is the value of the configuration item "WebIDType".</param>
@@ -113,7 +113,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// This method returns an asset database based on the hierarchical path associated with it, and should be used when a path has been received from a separate part of the PI System for use in the PI Web API. Users should primarily search with the WebID when available.
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="path">The path to the database.</param>
 		/// <param name="selectedFields">List of fields to be returned in the response, separated by semicolons (;). If this parameter is not specified, all available fields will be returned.</param>
 		/// <param name="webIdType">Optional parameter. Used to specify the type of WebID. Useful for URL brevity and other special cases. Default is the value of the configuration item "WebIDType".</param>
@@ -129,7 +129,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the database.</param>
 		/// <returns>HttpApiResponse<object></returns>
 		public async Task<HttpApiResponse<object>> DeleteWithHttpAsync(string webId)
@@ -162,7 +162,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the database.</param>
 		/// <returns>object</returns>
 		public async Task<object> DeleteAsync(string webId)
@@ -176,7 +176,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the database.</param>
 		/// <returns>HttpApiResponse<object></returns>
 		public HttpApiResponse<object> DeleteWithHttp(string webId)
@@ -209,7 +209,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the database.</param>
 		/// <returns>object</returns>
 		public object Delete(string webId)
@@ -223,7 +223,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the database.</param>
 		/// <param name="selectedFields">List of fields to be returned in the response, separated by semicolons (;). If this parameter is not specified, all available fields will be returned.</param>
 		/// <param name="webIdType">Optional parameter. Used to specify the type of WebID. Useful for URL brevity and other special cases. Default is the value of the configuration item "WebIDType".</param>
@@ -260,7 +260,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the database.</param>
 		/// <param name="selectedFields">List of fields to be returned in the response, separated by semicolons (;). If this parameter is not specified, all available fields will be returned.</param>
 		/// <param name="webIdType">Optional parameter. Used to specify the type of WebID. Useful for URL brevity and other special cases. Default is the value of the configuration item "WebIDType".</param>
@@ -276,7 +276,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the database.</param>
 		/// <param name="selectedFields">List of fields to be returned in the response, separated by semicolons (;). If this parameter is not specified, all available fields will be returned.</param>
 		/// <param name="webIdType">Optional parameter. Used to specify the type of WebID. Useful for URL brevity and other special cases. Default is the value of the configuration item "WebIDType".</param>
@@ -313,7 +313,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the database.</param>
 		/// <param name="selectedFields">List of fields to be returned in the response, separated by semicolons (;). If this parameter is not specified, all available fields will be returned.</param>
 		/// <param name="webIdType">Optional parameter. Used to specify the type of WebID. Useful for URL brevity and other special cases. Default is the value of the configuration item "WebIDType".</param>
@@ -329,7 +329,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the database.</param>
 		/// <param name="database">A partial database containing the desired changes.</param>
 		/// <returns>HttpApiResponse<object></returns>
@@ -369,7 +369,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the database.</param>
 		/// <param name="database">A partial database containing the desired changes.</param>
 		/// <returns>object</returns>
@@ -384,7 +384,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the database.</param>
 		/// <param name="database">A partial database containing the desired changes.</param>
 		/// <returns>HttpApiResponse<object></returns>
@@ -424,7 +424,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the database.</param>
 		/// <param name="database">A partial database containing the desired changes.</param>
 		/// <returns>object</returns>
@@ -439,7 +439,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// Users can search for the analyses based on specific search parameters. If no parameters are specified in the search, the default values for each parameter will be used and will return the analyses that match the default search.
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the database to search for the analyses.</param>
 		/// <param name="field">Specifies which of the object's properties are searched. Multiple search fields may be specified with multiple instances of the parameter. The default is 'Name'.</param>
 		/// <param name="maxCount">The maximum number of objects to be returned per call (page size). The default is 1000.</param>
@@ -493,7 +493,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// Users can search for the analyses based on specific search parameters. If no parameters are specified in the search, the default values for each parameter will be used and will return the analyses that match the default search.
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the database to search for the analyses.</param>
 		/// <param name="field">Specifies which of the object's properties are searched. Multiple search fields may be specified with multiple instances of the parameter. The default is 'Name'.</param>
 		/// <param name="maxCount">The maximum number of objects to be returned per call (page size). The default is 1000.</param>
@@ -515,7 +515,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// Users can search for the analyses based on specific search parameters. If no parameters are specified in the search, the default values for each parameter will be used and will return the analyses that match the default search.
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the database to search for the analyses.</param>
 		/// <param name="field">Specifies which of the object's properties are searched. Multiple search fields may be specified with multiple instances of the parameter. The default is 'Name'.</param>
 		/// <param name="maxCount">The maximum number of objects to be returned per call (page size). The default is 1000.</param>
@@ -569,7 +569,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// Users can search for the analyses based on specific search parameters. If no parameters are specified in the search, the default values for each parameter will be used and will return the analyses that match the default search.
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the database to search for the analyses.</param>
 		/// <param name="field">Specifies which of the object's properties are searched. Multiple search fields may be specified with multiple instances of the parameter. The default is 'Name'.</param>
 		/// <param name="maxCount">The maximum number of objects to be returned per call (page size). The default is 1000.</param>
@@ -591,7 +591,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the database.</param>
 		/// <param name="selectedFields">List of fields to be returned in the response, separated by semicolons (;). If this parameter is not specified, all available fields will be returned.</param>
 		/// <param name="webIdType">Optional parameter. Used to specify the type of WebID. Useful for URL brevity and other special cases. Default is the value of the configuration item "WebIDType".</param>
@@ -628,7 +628,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the database.</param>
 		/// <param name="selectedFields">List of fields to be returned in the response, separated by semicolons (;). If this parameter is not specified, all available fields will be returned.</param>
 		/// <param name="webIdType">Optional parameter. Used to specify the type of WebID. Useful for URL brevity and other special cases. Default is the value of the configuration item "WebIDType".</param>
@@ -644,7 +644,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the database.</param>
 		/// <param name="selectedFields">List of fields to be returned in the response, separated by semicolons (;). If this parameter is not specified, all available fields will be returned.</param>
 		/// <param name="webIdType">Optional parameter. Used to specify the type of WebID. Useful for URL brevity and other special cases. Default is the value of the configuration item "WebIDType".</param>
@@ -681,7 +681,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the database.</param>
 		/// <param name="selectedFields">List of fields to be returned in the response, separated by semicolons (;). If this parameter is not specified, all available fields will be returned.</param>
 		/// <param name="webIdType">Optional parameter. Used to specify the type of WebID. Useful for URL brevity and other special cases. Default is the value of the configuration item "WebIDType".</param>
@@ -697,7 +697,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the database in which to create the analysis category.</param>
 		/// <param name="analysisCategory">The new analysis category definition.</param>
 		/// <param name="webIdType">Optional parameter. Used to specify the type of WebID. Useful for URL brevity and other special cases. Default is the value of the configuration item "WebIDType".</param>
@@ -739,7 +739,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the database in which to create the analysis category.</param>
 		/// <param name="analysisCategory">The new analysis category definition.</param>
 		/// <param name="webIdType">Optional parameter. Used to specify the type of WebID. Useful for URL brevity and other special cases. Default is the value of the configuration item "WebIDType".</param>
@@ -755,7 +755,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the database in which to create the analysis category.</param>
 		/// <param name="analysisCategory">The new analysis category definition.</param>
 		/// <param name="webIdType">Optional parameter. Used to specify the type of WebID. Useful for URL brevity and other special cases. Default is the value of the configuration item "WebIDType".</param>
@@ -797,7 +797,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the database in which to create the analysis category.</param>
 		/// <param name="analysisCategory">The new analysis category definition.</param>
 		/// <param name="webIdType">Optional parameter. Used to specify the type of WebID. Useful for URL brevity and other special cases. Default is the value of the configuration item "WebIDType".</param>
@@ -813,7 +813,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// Users can search for the analysis templates based on specific search parameters. If no parameters are specified in the search, the default values for each parameter will be used and will return the templates that match the default search.
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the database to search.</param>
 		/// <param name="field">Specifies which of the object's properties are searched. Multiple search fields may be specified with multiple instances of the parameter. The default is 'Name'.</param>
 		/// <param name="maxCount">The maximum number of objects to be returned per call (page size). The default is 1000.</param>
@@ -865,7 +865,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// Users can search for the analysis templates based on specific search parameters. If no parameters are specified in the search, the default values for each parameter will be used and will return the templates that match the default search.
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the database to search.</param>
 		/// <param name="field">Specifies which of the object's properties are searched. Multiple search fields may be specified with multiple instances of the parameter. The default is 'Name'.</param>
 		/// <param name="maxCount">The maximum number of objects to be returned per call (page size). The default is 1000.</param>
@@ -886,7 +886,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// Users can search for the analysis templates based on specific search parameters. If no parameters are specified in the search, the default values for each parameter will be used and will return the templates that match the default search.
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the database to search.</param>
 		/// <param name="field">Specifies which of the object's properties are searched. Multiple search fields may be specified with multiple instances of the parameter. The default is 'Name'.</param>
 		/// <param name="maxCount">The maximum number of objects to be returned per call (page size). The default is 1000.</param>
@@ -938,7 +938,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// Users can search for the analysis templates based on specific search parameters. If no parameters are specified in the search, the default values for each parameter will be used and will return the templates that match the default search.
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the database to search.</param>
 		/// <param name="field">Specifies which of the object's properties are searched. Multiple search fields may be specified with multiple instances of the parameter. The default is 'Name'.</param>
 		/// <param name="maxCount">The maximum number of objects to be returned per call (page size). The default is 1000.</param>
@@ -959,7 +959,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// Analyses that are based on an analysis template will inherit characteristics defined in the template.
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the database in which to create the analysis template.</param>
 		/// <param name="template">The new analysis template definition.</param>
 		/// <param name="webIdType">Optional parameter. Used to specify the type of WebID. Useful for URL brevity and other special cases. Default is the value of the configuration item "WebIDType".</param>
@@ -1001,7 +1001,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// Analyses that are based on an analysis template will inherit characteristics defined in the template.
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the database in which to create the analysis template.</param>
 		/// <param name="template">The new analysis template definition.</param>
 		/// <param name="webIdType">Optional parameter. Used to specify the type of WebID. Useful for URL brevity and other special cases. Default is the value of the configuration item "WebIDType".</param>
@@ -1017,7 +1017,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// Analyses that are based on an analysis template will inherit characteristics defined in the template.
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the database in which to create the analysis template.</param>
 		/// <param name="template">The new analysis template definition.</param>
 		/// <param name="webIdType">Optional parameter. Used to specify the type of WebID. Useful for URL brevity and other special cases. Default is the value of the configuration item "WebIDType".</param>
@@ -1059,7 +1059,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// Analyses that are based on an analysis template will inherit characteristics defined in the template.
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the database in which to create the analysis template.</param>
 		/// <param name="template">The new analysis template definition.</param>
 		/// <param name="webIdType">Optional parameter. Used to specify the type of WebID. Useful for URL brevity and other special cases. Default is the value of the configuration item "WebIDType".</param>
@@ -1075,7 +1075,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the database.</param>
 		/// <param name="selectedFields">List of fields to be returned in the response, separated by semicolons (;). If this parameter is not specified, all available fields will be returned.</param>
 		/// <param name="webIdType">Optional parameter. Used to specify the type of WebID. Useful for URL brevity and other special cases. Default is the value of the configuration item "WebIDType".</param>
@@ -1112,7 +1112,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the database.</param>
 		/// <param name="selectedFields">List of fields to be returned in the response, separated by semicolons (;). If this parameter is not specified, all available fields will be returned.</param>
 		/// <param name="webIdType">Optional parameter. Used to specify the type of WebID. Useful for URL brevity and other special cases. Default is the value of the configuration item "WebIDType".</param>
@@ -1128,7 +1128,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the database.</param>
 		/// <param name="selectedFields">List of fields to be returned in the response, separated by semicolons (;). If this parameter is not specified, all available fields will be returned.</param>
 		/// <param name="webIdType">Optional parameter. Used to specify the type of WebID. Useful for URL brevity and other special cases. Default is the value of the configuration item "WebIDType".</param>
@@ -1165,7 +1165,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the database.</param>
 		/// <param name="selectedFields">List of fields to be returned in the response, separated by semicolons (;). If this parameter is not specified, all available fields will be returned.</param>
 		/// <param name="webIdType">Optional parameter. Used to specify the type of WebID. Useful for URL brevity and other special cases. Default is the value of the configuration item "WebIDType".</param>
@@ -1181,7 +1181,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the database in which to create the attribute category.</param>
 		/// <param name="attributeCategory">The new attribute category definition.</param>
 		/// <param name="webIdType">Optional parameter. Used to specify the type of WebID. Useful for URL brevity and other special cases. Default is the value of the configuration item "WebIDType".</param>
@@ -1223,7 +1223,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the database in which to create the attribute category.</param>
 		/// <param name="attributeCategory">The new attribute category definition.</param>
 		/// <param name="webIdType">Optional parameter. Used to specify the type of WebID. Useful for URL brevity and other special cases. Default is the value of the configuration item "WebIDType".</param>
@@ -1239,7 +1239,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the database in which to create the attribute category.</param>
 		/// <param name="attributeCategory">The new attribute category definition.</param>
 		/// <param name="webIdType">Optional parameter. Used to specify the type of WebID. Useful for URL brevity and other special cases. Default is the value of the configuration item "WebIDType".</param>
@@ -1281,7 +1281,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the database in which to create the attribute category.</param>
 		/// <param name="attributeCategory">The new attribute category definition.</param>
 		/// <param name="webIdType">Optional parameter. Used to specify the type of WebID. Useful for URL brevity and other special cases. Default is the value of the configuration item "WebIDType".</param>
@@ -1297,7 +1297,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the asset database to use as the root of the search.</param>
 		/// <param name="associations">Associated values to return in the response, separated by semicolons (;). This call supports DataReference to return attributes with data references. If this parameter is not specified, DataReference values are not returned.</param>
 		/// <param name="attributeCategory">Specify that returned attributes must have this category. The default is no filter.</param>
@@ -1364,7 +1364,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the asset database to use as the root of the search.</param>
 		/// <param name="associations">Associated values to return in the response, separated by semicolons (;). This call supports DataReference to return attributes with data references. If this parameter is not specified, DataReference values are not returned.</param>
 		/// <param name="attributeCategory">Specify that returned attributes must have this category. The default is no filter.</param>
@@ -1395,7 +1395,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the asset database to use as the root of the search.</param>
 		/// <param name="associations">Associated values to return in the response, separated by semicolons (;). This call supports DataReference to return attributes with data references. If this parameter is not specified, DataReference values are not returned.</param>
 		/// <param name="attributeCategory">Specify that returned attributes must have this category. The default is no filter.</param>
@@ -1462,7 +1462,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the asset database to use as the root of the search.</param>
 		/// <param name="associations">Associated values to return in the response, separated by semicolons (;). This call supports DataReference to return attributes with data references. If this parameter is not specified, DataReference values are not returned.</param>
 		/// <param name="attributeCategory">Specify that returned attributes must have this category. The default is no filter.</param>
@@ -1493,7 +1493,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the database.</param>
 		/// <param name="selectedFields">List of fields to be returned in the response, separated by semicolons (;). If this parameter is not specified, all available fields will be returned.</param>
 		/// <param name="webIdType">Optional parameter. Used to specify the type of WebID. Useful for URL brevity and other special cases. Default is the value of the configuration item "WebIDType".</param>
@@ -1530,7 +1530,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the database.</param>
 		/// <param name="selectedFields">List of fields to be returned in the response, separated by semicolons (;). If this parameter is not specified, all available fields will be returned.</param>
 		/// <param name="webIdType">Optional parameter. Used to specify the type of WebID. Useful for URL brevity and other special cases. Default is the value of the configuration item "WebIDType".</param>
@@ -1546,7 +1546,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the database.</param>
 		/// <param name="selectedFields">List of fields to be returned in the response, separated by semicolons (;). If this parameter is not specified, all available fields will be returned.</param>
 		/// <param name="webIdType">Optional parameter. Used to specify the type of WebID. Useful for URL brevity and other special cases. Default is the value of the configuration item "WebIDType".</param>
@@ -1583,7 +1583,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the database.</param>
 		/// <param name="selectedFields">List of fields to be returned in the response, separated by semicolons (;). If this parameter is not specified, all available fields will be returned.</param>
 		/// <param name="webIdType">Optional parameter. Used to specify the type of WebID. Useful for URL brevity and other special cases. Default is the value of the configuration item "WebIDType".</param>
@@ -1599,7 +1599,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the database in which to create the element category.</param>
 		/// <param name="elementCategory">The new element category definition.</param>
 		/// <param name="webIdType">Optional parameter. Used to specify the type of WebID. Useful for URL brevity and other special cases. Default is the value of the configuration item "WebIDType".</param>
@@ -1641,7 +1641,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the database in which to create the element category.</param>
 		/// <param name="elementCategory">The new element category definition.</param>
 		/// <param name="webIdType">Optional parameter. Used to specify the type of WebID. Useful for URL brevity and other special cases. Default is the value of the configuration item "WebIDType".</param>
@@ -1657,7 +1657,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the database in which to create the element category.</param>
 		/// <param name="elementCategory">The new element category definition.</param>
 		/// <param name="webIdType">Optional parameter. Used to specify the type of WebID. Useful for URL brevity and other special cases. Default is the value of the configuration item "WebIDType".</param>
@@ -1699,7 +1699,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the database in which to create the element category.</param>
 		/// <param name="elementCategory">The new element category definition.</param>
 		/// <param name="webIdType">Optional parameter. Used to specify the type of WebID. Useful for URL brevity and other special cases. Default is the value of the configuration item "WebIDType".</param>
@@ -1715,7 +1715,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// Users can search for the elements based on specific search parameters. If no parameters are specified in the search, the default values for each parameter will be used and will return the elements that match the default search.
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the database to use as the root of the search.</param>
 		/// <param name="associations">Associated values to return in the response, separated by semicolons (;). This call supports Paths to return all paths to the element. If this parameter is not specified, paths are not returned.</param>
 		/// <param name="categoryName">Specify that returned elements must have this category. The default is no category filter.</param>
@@ -1774,7 +1774,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// Users can search for the elements based on specific search parameters. If no parameters are specified in the search, the default values for each parameter will be used and will return the elements that match the default search.
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the database to use as the root of the search.</param>
 		/// <param name="associations">Associated values to return in the response, separated by semicolons (;). This call supports Paths to return all paths to the element. If this parameter is not specified, paths are not returned.</param>
 		/// <param name="categoryName">Specify that returned elements must have this category. The default is no category filter.</param>
@@ -1801,7 +1801,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// Users can search for the elements based on specific search parameters. If no parameters are specified in the search, the default values for each parameter will be used and will return the elements that match the default search.
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the database to use as the root of the search.</param>
 		/// <param name="associations">Associated values to return in the response, separated by semicolons (;). This call supports Paths to return all paths to the element. If this parameter is not specified, paths are not returned.</param>
 		/// <param name="categoryName">Specify that returned elements must have this category. The default is no category filter.</param>
@@ -1860,7 +1860,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// Users can search for the elements based on specific search parameters. If no parameters are specified in the search, the default values for each parameter will be used and will return the elements that match the default search.
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the database to use as the root of the search.</param>
 		/// <param name="associations">Associated values to return in the response, separated by semicolons (;). This call supports Paths to return all paths to the element. If this parameter is not specified, paths are not returned.</param>
 		/// <param name="categoryName">Specify that returned elements must have this category. The default is no category filter.</param>
@@ -1887,7 +1887,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the asset database on which to create the element.</param>
 		/// <param name="element">The new element definition.</param>
 		/// <param name="webIdType">Optional parameter. Used to specify the type of WebID. Useful for URL brevity and other special cases. Default is the value of the configuration item "WebIDType".</param>
@@ -1929,7 +1929,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the asset database on which to create the element.</param>
 		/// <param name="element">The new element definition.</param>
 		/// <param name="webIdType">Optional parameter. Used to specify the type of WebID. Useful for URL brevity and other special cases. Default is the value of the configuration item "WebIDType".</param>
@@ -1945,7 +1945,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the asset database on which to create the element.</param>
 		/// <param name="element">The new element definition.</param>
 		/// <param name="webIdType">Optional parameter. Used to specify the type of WebID. Useful for URL brevity and other special cases. Default is the value of the configuration item "WebIDType".</param>
@@ -1987,7 +1987,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the asset database on which to create the element.</param>
 		/// <param name="element">The new element definition.</param>
 		/// <param name="webIdType">Optional parameter. Used to specify the type of WebID. Useful for URL brevity and other special cases. Default is the value of the configuration item "WebIDType".</param>
@@ -2003,7 +2003,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// Users can search for the element and event frame template based on specific search parameters. If no parameters are specified in the search, the default values for each parameter will be used and will return the templates that match the default search.
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the database to search.</param>
 		/// <param name="field">Specifies which of the object's properties are searched. Multiple search fields may be specified with multiple instances of the parameter. The default is 'Name'.</param>
 		/// <param name="maxCount">The maximum number of objects to be returned per call (page size). The default is 1000.</param>
@@ -2055,7 +2055,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// Users can search for the element and event frame template based on specific search parameters. If no parameters are specified in the search, the default values for each parameter will be used and will return the templates that match the default search.
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the database to search.</param>
 		/// <param name="field">Specifies which of the object's properties are searched. Multiple search fields may be specified with multiple instances of the parameter. The default is 'Name'.</param>
 		/// <param name="maxCount">The maximum number of objects to be returned per call (page size). The default is 1000.</param>
@@ -2076,7 +2076,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// Users can search for the element and event frame template based on specific search parameters. If no parameters are specified in the search, the default values for each parameter will be used and will return the templates that match the default search.
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the database to search.</param>
 		/// <param name="field">Specifies which of the object's properties are searched. Multiple search fields may be specified with multiple instances of the parameter. The default is 'Name'.</param>
 		/// <param name="maxCount">The maximum number of objects to be returned per call (page size). The default is 1000.</param>
@@ -2128,7 +2128,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// Users can search for the element and event frame template based on specific search parameters. If no parameters are specified in the search, the default values for each parameter will be used and will return the templates that match the default search.
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the database to search.</param>
 		/// <param name="field">Specifies which of the object's properties are searched. Multiple search fields may be specified with multiple instances of the parameter. The default is 'Name'.</param>
 		/// <param name="maxCount">The maximum number of objects to be returned per call (page size). The default is 1000.</param>
@@ -2149,7 +2149,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// Elements and event frames that are based on an element template will inherit characteristics defined in the template.
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the database in which to create the element template.</param>
 		/// <param name="template">The new element template definition.</param>
 		/// <param name="webIdType">Optional parameter. Used to specify the type of WebID. Useful for URL brevity and other special cases. Default is the value of the configuration item "WebIDType".</param>
@@ -2191,7 +2191,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// Elements and event frames that are based on an element template will inherit characteristics defined in the template.
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the database in which to create the element template.</param>
 		/// <param name="template">The new element template definition.</param>
 		/// <param name="webIdType">Optional parameter. Used to specify the type of WebID. Useful for URL brevity and other special cases. Default is the value of the configuration item "WebIDType".</param>
@@ -2207,7 +2207,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// Elements and event frames that are based on an element template will inherit characteristics defined in the template.
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the database in which to create the element template.</param>
 		/// <param name="template">The new element template definition.</param>
 		/// <param name="webIdType">Optional parameter. Used to specify the type of WebID. Useful for URL brevity and other special cases. Default is the value of the configuration item "WebIDType".</param>
@@ -2249,7 +2249,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// Elements and event frames that are based on an element template will inherit characteristics defined in the template.
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the database in which to create the element template.</param>
 		/// <param name="template">The new element template definition.</param>
 		/// <param name="webIdType">Optional parameter. Used to specify the type of WebID. Useful for URL brevity and other special cases. Default is the value of the configuration item "WebIDType".</param>
@@ -2265,7 +2265,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the database.</param>
 		/// <param name="selectedFields">List of fields to be returned in the response, separated by semicolons (;). If this parameter is not specified, all available fields will be returned.</param>
 		/// <param name="webIdType">Optional parameter. Used to specify the type of WebID. Useful for URL brevity and other special cases. Default is the value of the configuration item "WebIDType".</param>
@@ -2302,7 +2302,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the database.</param>
 		/// <param name="selectedFields">List of fields to be returned in the response, separated by semicolons (;). If this parameter is not specified, all available fields will be returned.</param>
 		/// <param name="webIdType">Optional parameter. Used to specify the type of WebID. Useful for URL brevity and other special cases. Default is the value of the configuration item "WebIDType".</param>
@@ -2318,7 +2318,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the database.</param>
 		/// <param name="selectedFields">List of fields to be returned in the response, separated by semicolons (;). If this parameter is not specified, all available fields will be returned.</param>
 		/// <param name="webIdType">Optional parameter. Used to specify the type of WebID. Useful for URL brevity and other special cases. Default is the value of the configuration item "WebIDType".</param>
@@ -2355,7 +2355,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the database.</param>
 		/// <param name="selectedFields">List of fields to be returned in the response, separated by semicolons (;). If this parameter is not specified, all available fields will be returned.</param>
 		/// <param name="webIdType">Optional parameter. Used to specify the type of WebID. Useful for URL brevity and other special cases. Default is the value of the configuration item "WebIDType".</param>
@@ -2371,7 +2371,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the database in which to create the enumeration set.</param>
 		/// <param name="enumerationSet">The new enumeration set definition.</param>
 		/// <param name="webIdType">Optional parameter. Used to specify the type of WebID. Useful for URL brevity and other special cases. Default is the value of the configuration item "WebIDType".</param>
@@ -2413,7 +2413,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the database in which to create the enumeration set.</param>
 		/// <param name="enumerationSet">The new enumeration set definition.</param>
 		/// <param name="webIdType">Optional parameter. Used to specify the type of WebID. Useful for URL brevity and other special cases. Default is the value of the configuration item "WebIDType".</param>
@@ -2429,7 +2429,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the database in which to create the enumeration set.</param>
 		/// <param name="enumerationSet">The new enumeration set definition.</param>
 		/// <param name="webIdType">Optional parameter. Used to specify the type of WebID. Useful for URL brevity and other special cases. Default is the value of the configuration item "WebIDType".</param>
@@ -2471,7 +2471,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the database in which to create the enumeration set.</param>
 		/// <param name="enumerationSet">The new enumeration set definition.</param>
 		/// <param name="webIdType">Optional parameter. Used to specify the type of WebID. Useful for URL brevity and other special cases. Default is the value of the configuration item "WebIDType".</param>
@@ -2487,7 +2487,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the asset database to use as the root of the search.</param>
 		/// <param name="associations">Associated values to return in the response, separated by semicolons (;). This call supports DataReference to return attributes with data references. If this parameter is not specified, DataReference values are not returned.</param>
 		/// <param name="attributeCategory">Specify that returned attributes must have this category. The default is no filter.</param>
@@ -2560,7 +2560,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the asset database to use as the root of the search.</param>
 		/// <param name="associations">Associated values to return in the response, separated by semicolons (;). This call supports DataReference to return attributes with data references. If this parameter is not specified, DataReference values are not returned.</param>
 		/// <param name="attributeCategory">Specify that returned attributes must have this category. The default is no filter.</param>
@@ -2594,7 +2594,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the asset database to use as the root of the search.</param>
 		/// <param name="associations">Associated values to return in the response, separated by semicolons (;). This call supports DataReference to return attributes with data references. If this parameter is not specified, DataReference values are not returned.</param>
 		/// <param name="attributeCategory">Specify that returned attributes must have this category. The default is no filter.</param>
@@ -2667,7 +2667,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the asset database to use as the root of the search.</param>
 		/// <param name="associations">Associated values to return in the response, separated by semicolons (;). This call supports DataReference to return attributes with data references. If this parameter is not specified, DataReference values are not returned.</param>
 		/// <param name="attributeCategory">Specify that returned attributes must have this category. The default is no filter.</param>
@@ -2701,7 +2701,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the asset database to use as the root of the search.</param>
 		/// <param name="canBeAcknowledged">Specify the returned event frames' canBeAcknowledged property. The default is no canBeAcknowledged filter.</param>
 		/// <param name="categoryName">Specify that returned event frames must have this category. The default is no category filter.</param>
@@ -2770,7 +2770,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the asset database to use as the root of the search.</param>
 		/// <param name="canBeAcknowledged">Specify the returned event frames' canBeAcknowledged property. The default is no canBeAcknowledged filter.</param>
 		/// <param name="categoryName">Specify that returned event frames must have this category. The default is no category filter.</param>
@@ -2802,7 +2802,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the asset database to use as the root of the search.</param>
 		/// <param name="canBeAcknowledged">Specify the returned event frames' canBeAcknowledged property. The default is no canBeAcknowledged filter.</param>
 		/// <param name="categoryName">Specify that returned event frames must have this category. The default is no category filter.</param>
@@ -2871,7 +2871,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the asset database to use as the root of the search.</param>
 		/// <param name="canBeAcknowledged">Specify the returned event frames' canBeAcknowledged property. The default is no canBeAcknowledged filter.</param>
 		/// <param name="categoryName">Specify that returned event frames must have this category. The default is no category filter.</param>
@@ -2903,7 +2903,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the database on which to create the event frame.</param>
 		/// <param name="eventFrame">The new event frame definition.</param>
 		/// <param name="webIdType">Optional parameter. Used to specify the type of WebID. Useful for URL brevity and other special cases. Default is the value of the configuration item "WebIDType".</param>
@@ -2945,7 +2945,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the database on which to create the event frame.</param>
 		/// <param name="eventFrame">The new event frame definition.</param>
 		/// <param name="webIdType">Optional parameter. Used to specify the type of WebID. Useful for URL brevity and other special cases. Default is the value of the configuration item "WebIDType".</param>
@@ -2961,7 +2961,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the database on which to create the event frame.</param>
 		/// <param name="eventFrame">The new event frame definition.</param>
 		/// <param name="webIdType">Optional parameter. Used to specify the type of WebID. Useful for URL brevity and other special cases. Default is the value of the configuration item "WebIDType".</param>
@@ -3003,7 +3003,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the database on which to create the event frame.</param>
 		/// <param name="eventFrame">The new event frame definition.</param>
 		/// <param name="webIdType">Optional parameter. Used to specify the type of WebID. Useful for URL brevity and other special cases. Default is the value of the configuration item "WebIDType".</param>
@@ -3019,7 +3019,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the database.</param>
 		/// <param name="endTime">The latest ending time for AFEventFrame, AFTransfer, and AFCase objects that may be part of the export. The default is '*'.</param>
 		/// <param name="exportMode">Indicates the type of export to perform. The default is 'StrongReferences'. Multiple export modes may be specified by using multiple instances of exportMode.</param>
@@ -3058,7 +3058,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the database.</param>
 		/// <param name="endTime">The latest ending time for AFEventFrame, AFTransfer, and AFCase objects that may be part of the export. The default is '*'.</param>
 		/// <param name="exportMode">Indicates the type of export to perform. The default is 'StrongReferences'. Multiple export modes may be specified by using multiple instances of exportMode.</param>
@@ -3075,7 +3075,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the database.</param>
 		/// <param name="endTime">The latest ending time for AFEventFrame, AFTransfer, and AFCase objects that may be part of the export. The default is '*'.</param>
 		/// <param name="exportMode">Indicates the type of export to perform. The default is 'StrongReferences'. Multiple export modes may be specified by using multiple instances of exportMode.</param>
@@ -3114,7 +3114,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the database.</param>
 		/// <param name="endTime">The latest ending time for AFEventFrame, AFTransfer, and AFCase objects that may be part of the export. The default is '*'.</param>
 		/// <param name="exportMode">Indicates the type of export to perform. The default is 'StrongReferences'. Multiple export modes may be specified by using multiple instances of exportMode.</param>
@@ -3131,7 +3131,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the asset database.</param>
 		/// <param name="importMode">Indicates the type of import to perform. The default is 'AllowCreate | AllowUpdate | AutoCheckIn'. Multiple import modes may be specified by using multiple instances of importMode.</param>
 		/// <returns>HttpApiResponse<object></returns>
@@ -3166,7 +3166,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the asset database.</param>
 		/// <param name="importMode">Indicates the type of import to perform. The default is 'AllowCreate | AllowUpdate | AutoCheckIn'. Multiple import modes may be specified by using multiple instances of importMode.</param>
 		/// <returns>object</returns>
@@ -3181,7 +3181,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the asset database.</param>
 		/// <param name="importMode">Indicates the type of import to perform. The default is 'AllowCreate | AllowUpdate | AutoCheckIn'. Multiple import modes may be specified by using multiple instances of importMode.</param>
 		/// <returns>HttpApiResponse<object></returns>
@@ -3216,7 +3216,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the asset database.</param>
 		/// <param name="importMode">Indicates the type of import to perform. The default is 'AllowCreate | AllowUpdate | AutoCheckIn'. Multiple import modes may be specified by using multiple instances of importMode.</param>
 		/// <returns>object</returns>
@@ -3231,7 +3231,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the database which the referenced element will be removed from.</param>
 		/// <param name="referencedElementWebId">The ID of the referenced element. Multiple referenced elements may be specified with multiple instances of the parameter.</param>
 		/// <returns>HttpApiResponse<object></returns>
@@ -3271,7 +3271,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the database which the referenced element will be removed from.</param>
 		/// <param name="referencedElementWebId">The ID of the referenced element. Multiple referenced elements may be specified with multiple instances of the parameter.</param>
 		/// <returns>object</returns>
@@ -3286,7 +3286,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the database which the referenced element will be removed from.</param>
 		/// <param name="referencedElementWebId">The ID of the referenced element. Multiple referenced elements may be specified with multiple instances of the parameter.</param>
 		/// <returns>HttpApiResponse<object></returns>
@@ -3326,7 +3326,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the database which the referenced element will be removed from.</param>
 		/// <param name="referencedElementWebId">The ID of the referenced element. Multiple referenced elements may be specified with multiple instances of the parameter.</param>
 		/// <returns>object</returns>
@@ -3341,7 +3341,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// Users can search for the referenced elements based on specific search parameters. If no parameters are specified in the search, the default values for each parameter will be used and will return the elements that match the default search.
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the resource to use as the root of the search.</param>
 		/// <param name="associations">Associated values to return in the response, separated by semicolons (;). This call supports Paths to return all paths to the element. If this parameter is not specified, paths are not returned.</param>
 		/// <param name="categoryName">Specify that returned elements must have this category. The default is no category filter.</param>
@@ -3398,7 +3398,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// Users can search for the referenced elements based on specific search parameters. If no parameters are specified in the search, the default values for each parameter will be used and will return the elements that match the default search.
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the resource to use as the root of the search.</param>
 		/// <param name="associations">Associated values to return in the response, separated by semicolons (;). This call supports Paths to return all paths to the element. If this parameter is not specified, paths are not returned.</param>
 		/// <param name="categoryName">Specify that returned elements must have this category. The default is no category filter.</param>
@@ -3424,7 +3424,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// Users can search for the referenced elements based on specific search parameters. If no parameters are specified in the search, the default values for each parameter will be used and will return the elements that match the default search.
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the resource to use as the root of the search.</param>
 		/// <param name="associations">Associated values to return in the response, separated by semicolons (;). This call supports Paths to return all paths to the element. If this parameter is not specified, paths are not returned.</param>
 		/// <param name="categoryName">Specify that returned elements must have this category. The default is no category filter.</param>
@@ -3481,7 +3481,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// Users can search for the referenced elements based on specific search parameters. If no parameters are specified in the search, the default values for each parameter will be used and will return the elements that match the default search.
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the resource to use as the root of the search.</param>
 		/// <param name="associations">Associated values to return in the response, separated by semicolons (;). This call supports Paths to return all paths to the element. If this parameter is not specified, paths are not returned.</param>
 		/// <param name="categoryName">Specify that returned elements must have this category. The default is no category filter.</param>
@@ -3507,7 +3507,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the database which the referenced element will be added to.</param>
 		/// <param name="referencedElementWebId">The ID of the referenced element. Multiple referenced elements may be specified with multiple instances of the parameter.</param>
 		/// <param name="referenceType">The name of the reference type between the parent and the referenced element. This must be a "strong" reference type. The default is "parent-child".</param>
@@ -3549,7 +3549,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the database which the referenced element will be added to.</param>
 		/// <param name="referencedElementWebId">The ID of the referenced element. Multiple referenced elements may be specified with multiple instances of the parameter.</param>
 		/// <param name="referenceType">The name of the reference type between the parent and the referenced element. This must be a "strong" reference type. The default is "parent-child".</param>
@@ -3565,7 +3565,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the database which the referenced element will be added to.</param>
 		/// <param name="referencedElementWebId">The ID of the referenced element. Multiple referenced elements may be specified with multiple instances of the parameter.</param>
 		/// <param name="referenceType">The name of the reference type between the parent and the referenced element. This must be a "strong" reference type. The default is "parent-child".</param>
@@ -3607,7 +3607,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the database which the referenced element will be added to.</param>
 		/// <param name="referencedElementWebId">The ID of the referenced element. Multiple referenced elements may be specified with multiple instances of the parameter.</param>
 		/// <param name="referenceType">The name of the reference type between the parent and the referenced element. This must be a "strong" reference type. The default is "parent-child".</param>
@@ -3623,7 +3623,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the asset database for the security to be checked.</param>
 		/// <param name="securityItem">The security item of the desired security information to be returned. Multiple security items may be specified with multiple instances of the parameter. If the parameter is not specified, only 'Default' security item of the security information will be returned.</param>
 		/// <param name="userIdentity">The user identity for the security information to be checked. Multiple security identities may be specified with multiple instances of the parameter. If the parameter is not specified, only the current user's security rights will be returned.</param>
@@ -3676,7 +3676,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the asset database for the security to be checked.</param>
 		/// <param name="securityItem">The security item of the desired security information to be returned. Multiple security items may be specified with multiple instances of the parameter. If the parameter is not specified, only 'Default' security item of the security information will be returned.</param>
 		/// <param name="userIdentity">The user identity for the security information to be checked. Multiple security identities may be specified with multiple instances of the parameter. If the parameter is not specified, only the current user's security rights will be returned.</param>
@@ -3695,7 +3695,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the asset database for the security to be checked.</param>
 		/// <param name="securityItem">The security item of the desired security information to be returned. Multiple security items may be specified with multiple instances of the parameter. If the parameter is not specified, only 'Default' security item of the security information will be returned.</param>
 		/// <param name="userIdentity">The user identity for the security information to be checked. Multiple security identities may be specified with multiple instances of the parameter. If the parameter is not specified, only the current user's security rights will be returned.</param>
@@ -3748,7 +3748,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the asset database for the security to be checked.</param>
 		/// <param name="securityItem">The security item of the desired security information to be returned. Multiple security items may be specified with multiple instances of the parameter. If the parameter is not specified, only 'Default' security item of the security information will be returned.</param>
 		/// <param name="userIdentity">The user identity for the security information to be checked. Multiple security identities may be specified with multiple instances of the parameter. If the parameter is not specified, only the current user's security rights will be returned.</param>
@@ -3767,7 +3767,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the asset database.</param>
 		/// <param name="nameFilter">The name query string used for filtering security entries. The default is no filter.</param>
 		/// <param name="securityItem">The security item of the desired security entries information to be returned. If the parameter is not specified, security entries of the 'Default' security item will be returned.</param>
@@ -3808,7 +3808,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the asset database.</param>
 		/// <param name="nameFilter">The name query string used for filtering security entries. The default is no filter.</param>
 		/// <param name="securityItem">The security item of the desired security entries information to be returned. If the parameter is not specified, security entries of the 'Default' security item will be returned.</param>
@@ -3826,7 +3826,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the asset database.</param>
 		/// <param name="nameFilter">The name query string used for filtering security entries. The default is no filter.</param>
 		/// <param name="securityItem">The security item of the desired security entries information to be returned. If the parameter is not specified, security entries of the 'Default' security item will be returned.</param>
@@ -3867,7 +3867,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the asset database.</param>
 		/// <param name="nameFilter">The name query string used for filtering security entries. The default is no filter.</param>
 		/// <param name="securityItem">The security item of the desired security entries information to be returned. If the parameter is not specified, security entries of the 'Default' security item will be returned.</param>
@@ -3885,7 +3885,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the asset database where the security entry will be created.</param>
 		/// <param name="securityEntry">The new security entry definition. The full list of allow and deny rights must be supplied.</param>
 		/// <param name="applyToChildren">If false, the new access permissions are only applied to the associated object. If true, the access permissions of children with any parent-child reference types will change when the permissions on the primary parent change.</param>
@@ -3931,7 +3931,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the asset database where the security entry will be created.</param>
 		/// <param name="securityEntry">The new security entry definition. The full list of allow and deny rights must be supplied.</param>
 		/// <param name="applyToChildren">If false, the new access permissions are only applied to the associated object. If true, the access permissions of children with any parent-child reference types will change when the permissions on the primary parent change.</param>
@@ -3949,7 +3949,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the asset database where the security entry will be created.</param>
 		/// <param name="securityEntry">The new security entry definition. The full list of allow and deny rights must be supplied.</param>
 		/// <param name="applyToChildren">If false, the new access permissions are only applied to the associated object. If true, the access permissions of children with any parent-child reference types will change when the permissions on the primary parent change.</param>
@@ -3995,7 +3995,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the asset database where the security entry will be created.</param>
 		/// <param name="securityEntry">The new security entry definition. The full list of allow and deny rights must be supplied.</param>
 		/// <param name="applyToChildren">If false, the new access permissions are only applied to the associated object. If true, the access permissions of children with any parent-child reference types will change when the permissions on the primary parent change.</param>
@@ -4013,7 +4013,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="name">The name of the security entry. For every backslash character (\) in the security entry name, replace with asterisk (*). As an example, use domain*username instead of domain\username.</param>
 		/// <param name="webId">The ID of the asset database where the security entry will be deleted.</param>
 		/// <param name="applyToChildren">If false, the new access permissions are only applied to the associated object. If true, the access permissions of children with any parent-child reference types will change when the permissions on the primary parent change.</param>
@@ -4057,7 +4057,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="name">The name of the security entry. For every backslash character (\) in the security entry name, replace with asterisk (*). As an example, use domain*username instead of domain\username.</param>
 		/// <param name="webId">The ID of the asset database where the security entry will be deleted.</param>
 		/// <param name="applyToChildren">If false, the new access permissions are only applied to the associated object. If true, the access permissions of children with any parent-child reference types will change when the permissions on the primary parent change.</param>
@@ -4074,7 +4074,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="name">The name of the security entry. For every backslash character (\) in the security entry name, replace with asterisk (*). As an example, use domain*username instead of domain\username.</param>
 		/// <param name="webId">The ID of the asset database where the security entry will be deleted.</param>
 		/// <param name="applyToChildren">If false, the new access permissions are only applied to the associated object. If true, the access permissions of children with any parent-child reference types will change when the permissions on the primary parent change.</param>
@@ -4118,7 +4118,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="name">The name of the security entry. For every backslash character (\) in the security entry name, replace with asterisk (*). As an example, use domain*username instead of domain\username.</param>
 		/// <param name="webId">The ID of the asset database where the security entry will be deleted.</param>
 		/// <param name="applyToChildren">If false, the new access permissions are only applied to the associated object. If true, the access permissions of children with any parent-child reference types will change when the permissions on the primary parent change.</param>
@@ -4135,7 +4135,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="name">The name of the security entry. For every backslash character (\) in the security entry name, replace with asterisk (*). As an example, use domain*username instead of domain\username.</param>
 		/// <param name="webId">The ID of the asset database.</param>
 		/// <param name="securityItem">The security item of the desired security entries information to be returned. If the parameter is not specified, security entries of the 'Default' security item will be returned.</param>
@@ -4181,7 +4181,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="name">The name of the security entry. For every backslash character (\) in the security entry name, replace with asterisk (*). As an example, use domain*username instead of domain\username.</param>
 		/// <param name="webId">The ID of the asset database.</param>
 		/// <param name="securityItem">The security item of the desired security entries information to be returned. If the parameter is not specified, security entries of the 'Default' security item will be returned.</param>
@@ -4199,7 +4199,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="name">The name of the security entry. For every backslash character (\) in the security entry name, replace with asterisk (*). As an example, use domain*username instead of domain\username.</param>
 		/// <param name="webId">The ID of the asset database.</param>
 		/// <param name="securityItem">The security item of the desired security entries information to be returned. If the parameter is not specified, security entries of the 'Default' security item will be returned.</param>
@@ -4245,7 +4245,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="name">The name of the security entry. For every backslash character (\) in the security entry name, replace with asterisk (*). As an example, use domain*username instead of domain\username.</param>
 		/// <param name="webId">The ID of the asset database.</param>
 		/// <param name="securityItem">The security item of the desired security entries information to be returned. If the parameter is not specified, security entries of the 'Default' security item will be returned.</param>
@@ -4263,7 +4263,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="name">The name of the security entry.</param>
 		/// <param name="webId">The ID of the asset database where the security entry will be updated.</param>
 		/// <param name="securityEntry">The new security entry definition. The full list of allow and deny rights must be supplied or they will be removed.</param>
@@ -4314,7 +4314,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="name">The name of the security entry.</param>
 		/// <param name="webId">The ID of the asset database where the security entry will be updated.</param>
 		/// <param name="securityEntry">The new security entry definition. The full list of allow and deny rights must be supplied or they will be removed.</param>
@@ -4332,7 +4332,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="name">The name of the security entry.</param>
 		/// <param name="webId">The ID of the asset database where the security entry will be updated.</param>
 		/// <param name="securityEntry">The new security entry definition. The full list of allow and deny rights must be supplied or they will be removed.</param>
@@ -4383,7 +4383,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="name">The name of the security entry.</param>
 		/// <param name="webId">The ID of the asset database where the security entry will be updated.</param>
 		/// <param name="securityEntry">The new security entry definition. The full list of allow and deny rights must be supplied or they will be removed.</param>
@@ -4401,7 +4401,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the database.</param>
 		/// <param name="selectedFields">List of fields to be returned in the response, separated by semicolons (;). If this parameter is not specified, all available fields will be returned.</param>
 		/// <param name="webIdType">Optional parameter. Used to specify the type of WebID. Useful for URL brevity and other special cases. Default is the value of the configuration item "WebIDType".</param>
@@ -4438,7 +4438,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the database.</param>
 		/// <param name="selectedFields">List of fields to be returned in the response, separated by semicolons (;). If this parameter is not specified, all available fields will be returned.</param>
 		/// <param name="webIdType">Optional parameter. Used to specify the type of WebID. Useful for URL brevity and other special cases. Default is the value of the configuration item "WebIDType".</param>
@@ -4454,7 +4454,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the database.</param>
 		/// <param name="selectedFields">List of fields to be returned in the response, separated by semicolons (;). If this parameter is not specified, all available fields will be returned.</param>
 		/// <param name="webIdType">Optional parameter. Used to specify the type of WebID. Useful for URL brevity and other special cases. Default is the value of the configuration item "WebIDType".</param>
@@ -4491,7 +4491,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the database.</param>
 		/// <param name="selectedFields">List of fields to be returned in the response, separated by semicolons (;). If this parameter is not specified, all available fields will be returned.</param>
 		/// <param name="webIdType">Optional parameter. Used to specify the type of WebID. Useful for URL brevity and other special cases. Default is the value of the configuration item "WebIDType".</param>
@@ -4507,7 +4507,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the database in which to create the table category.</param>
 		/// <param name="tableCategory">The new table category definition.</param>
 		/// <param name="webIdType">Optional parameter. Used to specify the type of WebID. Useful for URL brevity and other special cases. Default is the value of the configuration item "WebIDType".</param>
@@ -4549,7 +4549,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the database in which to create the table category.</param>
 		/// <param name="tableCategory">The new table category definition.</param>
 		/// <param name="webIdType">Optional parameter. Used to specify the type of WebID. Useful for URL brevity and other special cases. Default is the value of the configuration item "WebIDType".</param>
@@ -4565,7 +4565,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the database in which to create the table category.</param>
 		/// <param name="tableCategory">The new table category definition.</param>
 		/// <param name="webIdType">Optional parameter. Used to specify the type of WebID. Useful for URL brevity and other special cases. Default is the value of the configuration item "WebIDType".</param>
@@ -4607,7 +4607,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the database in which to create the table category.</param>
 		/// <param name="tableCategory">The new table category definition.</param>
 		/// <param name="webIdType">Optional parameter. Used to specify the type of WebID. Useful for URL brevity and other special cases. Default is the value of the configuration item "WebIDType".</param>
@@ -4623,7 +4623,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the database.</param>
 		/// <param name="selectedFields">List of fields to be returned in the response, separated by semicolons (;). If this parameter is not specified, all available fields will be returned.</param>
 		/// <param name="webIdType">Optional parameter. Used to specify the type of WebID. Useful for URL brevity and other special cases. Default is the value of the configuration item "WebIDType".</param>
@@ -4660,7 +4660,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the database.</param>
 		/// <param name="selectedFields">List of fields to be returned in the response, separated by semicolons (;). If this parameter is not specified, all available fields will be returned.</param>
 		/// <param name="webIdType">Optional parameter. Used to specify the type of WebID. Useful for URL brevity and other special cases. Default is the value of the configuration item "WebIDType".</param>
@@ -4676,7 +4676,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the database.</param>
 		/// <param name="selectedFields">List of fields to be returned in the response, separated by semicolons (;). If this parameter is not specified, all available fields will be returned.</param>
 		/// <param name="webIdType">Optional parameter. Used to specify the type of WebID. Useful for URL brevity and other special cases. Default is the value of the configuration item "WebIDType".</param>
@@ -4713,7 +4713,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the database.</param>
 		/// <param name="selectedFields">List of fields to be returned in the response, separated by semicolons (;). If this parameter is not specified, all available fields will be returned.</param>
 		/// <param name="webIdType">Optional parameter. Used to specify the type of WebID. Useful for URL brevity and other special cases. Default is the value of the configuration item "WebIDType".</param>
@@ -4729,7 +4729,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the database in which to create the table.</param>
 		/// <param name="table">The new table definition.</param>
 		/// <param name="webIdType">Optional parameter. Used to specify the type of WebID. Useful for URL brevity and other special cases. Default is the value of the configuration item "WebIDType".</param>
@@ -4771,7 +4771,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the database in which to create the table.</param>
 		/// <param name="table">The new table definition.</param>
 		/// <param name="webIdType">Optional parameter. Used to specify the type of WebID. Useful for URL brevity and other special cases. Default is the value of the configuration item "WebIDType".</param>
@@ -4787,7 +4787,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the database in which to create the table.</param>
 		/// <param name="table">The new table definition.</param>
 		/// <param name="webIdType">Optional parameter. Used to specify the type of WebID. Useful for URL brevity and other special cases. Default is the value of the configuration item "WebIDType".</param>
@@ -4829,7 +4829,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="webId">The ID of the database in which to create the table.</param>
 		/// <param name="table">The new table definition.</param>
 		/// <param name="webIdType">Optional parameter. Used to specify the type of WebID. Useful for URL brevity and other special cases. Default is the value of the configuration item "WebIDType".</param>

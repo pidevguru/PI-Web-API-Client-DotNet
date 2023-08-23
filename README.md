@@ -2,7 +2,11 @@ PI Web API client for .NET
 ===
 
 ## Overview
-This repository has the source code package of the PI Web API client for .NET, which compiles for .NET Standard 2.0 and .NET Framework 4.5.2. 
+This repository has the source code package of the PI Web API client for .NET, which compiles for .NET Standard 2.0 and .NET Framework 4.5.2. PI Web API 2018 swagger specification was used to create this package.
+
+## Requirements
+
+ - PI Web API 2018+ instance available on your domain or a public network.
 
 
 ## Compability
@@ -10,8 +14,7 @@ This repository has the source code package of the PI Web API client for .NET, w
 This library is compatible with:
 
 - .NET Framework 4.5.2+
-- .NET6+
-- .NET Core 2.2+
+- .NET 6+
 
 ## Installation
 
@@ -20,15 +23,9 @@ This library is compatible with:
  
 ## Documentation
 
-All PI Web API server methods are mapped on this client. Please refer to [PI Web API help page](/piwebapi/help). 
+All PI Web API server methods are mapped on this client. Please refer to [PI Web API help page](https://docs.aveva.com/bundle/pi-web-api-reference/page/help). 
 
- 
-## Examples
-
-Please check the [Program.cs](/src/OSIsoft.PIDevClub.PIWebApiClient/LibraryTest/Program.cs) from the LibraryTest project from the Visual Studio solution of this repository. Below there are also code snippets written in C# for you to get started using this library:
-
-
-### Create an instance of the PI Web API top level object using Kerberos authentication.
+ ### Create an instance of the PI Web API top level object using Kerberos authentication.
 
 ```cs
 	PIWebAPI client = new PIWebAPI("https://mywebserver/piwebapi/");  

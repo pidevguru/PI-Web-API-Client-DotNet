@@ -23,7 +23,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="batch">The batch of requests.</param>
 		/// <returns>HttpApiResponse<Dictionary<string, PWAResponse>></returns>
 		public async Task<HttpApiResponse<Dictionary<string, PWAResponse>>> ExecuteWithHttpAsync(Dictionary<string, PWARequest> batch)
@@ -56,7 +56,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="batch">The batch of requests.</param>
 		/// <returns>Dictionary<string, PWAResponse></returns>
 		public async Task<Dictionary<string, PWAResponse>> ExecuteAsync(Dictionary<string, PWARequest> batch)
@@ -70,7 +70,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="batch">The batch of requests.</param>
 		/// <returns>HttpApiResponse<Dictionary<string, PWAResponse>></returns>
 		public HttpApiResponse<Dictionary<string, PWAResponse>> ExecuteWithHttp(Dictionary<string, PWARequest> batch)
@@ -103,7 +103,7 @@ namespace PIDevGuru.PIWebApiClient.Controllers
 		/// <remarks>
 		/// 
 		/// </remarks>
-		/// <exception cref="TimeLordGeek.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
+		/// <exception cref="PIDevGuru.PIWebApiClient.Exceptions.HttpApiException">Thrown when fails to make API call</exception>
 		/// <param name="batch">The batch of requests.</param>
 		/// <returns>Dictionary<string, PWAResponse></returns>
 		public Dictionary<string, PWAResponse> Execute(Dictionary<string, PWARequest> batch)

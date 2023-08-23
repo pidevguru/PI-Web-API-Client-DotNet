@@ -2,19 +2,23 @@
   <PropertyGroup>
     <TargetFrameworks>netstandard2.0;net452</TargetFrameworks>
     <PackageId>PIDevGuru.PIWebApiClient</PackageId>
-    <Version>1.0.1-alpha</Version>
+    <Version>1.0.3</Version>
     <Authors>Marcos Loeff</Authors>
     <Company>PI Dev Guru</Company>
     <Product>PI Web API client for .NET</Product>
+    <Description>Client package for connecting with Aveva PI Web API using swagger specification.</Description>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-	<PackageLicenseFile>LICENSE.md</PackageLicenseFile>
-	<PackageReadmeFile>README.md</PackageReadmeFile>
-	<RepositoryUrl>https://github.com/pidevguru/PI-Web-API-Client-DotNet.git</RepositoryUrl> 
-    <RepositoryType>git</RepositoryType> 
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <EmbedAllSources>true</EmbedAllSources>
+    <DebugType>Embedded</DebugType>
+    <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/pidevguru/PI-Web-API-Client-DotNet.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
   </PropertyGroup>
   <ItemGroup>
     <None Include="..\..\LICENSE.md" Pack="true" PackagePath="$(PackageLicenseFile)"/>
-	<None Include="..\..\README.md" Pack="true" PackagePath="$(PackageReadmeFile)" />
+    <None Include="..\..\README.md" Pack="true" PackagePath="$(PackageReadmeFile)" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
